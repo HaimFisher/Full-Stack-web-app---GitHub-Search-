@@ -1,0 +1,51 @@
+
+Microsoft(R) Windows(TM) Dfs Utility Version 4.2
+Copyright (C) Microsoft Corporation 1991-2005. All Rights Reserved.
+
+--mup.sys--
+2 entries...
+Entry: \FMSISSLAN05.AMR.CORP.INTEL.COM\iss\itcb4\production
+ShortEntry: \FMSISSLAN05.AMR.CORP.INTEL.COM\iss\itcb4\production
+Expires in 163 seconds
+UseCount: 4 Type:0x1 ( DFS )
+   0:[\JRSISSLAN02.GER.corp.intel.com\ITCB4\EndPointB] State:0x110 ( ACTIVE TARGETSET )
+   1:[\HASISSLAN06.GER.corp.intel.com\ITCB4\EndPointB] State:0x100 ( TARGETSET )
+   2:[\LCSISSLAN05.GER.corp.intel.com\ITCB4\EndPointB] State:0x100 ( TARGETSET )
+   3:[\LCSISSLAN03.GER.corp.intel.com\ITCB4\EndPointB] State:0x00 
+   4:[\LCSISSLAN04.GER.corp.intel.com\ITCB4\EndPointB] State:0x00 
+   5:[\IRSISSLAN01.GER.corp.intel.com\ITCB4\EndPointB] State:0x100 ( TARGETSET )
+   6:[\IRSISSLAN02.GER.corp.intel.com\ITCB4\EndPointB] State:0x00 
+   7:[\SCSISSLAN01.AMR.corp.intel.com\ITCB4\EndPointB] State:0x100 ( TARGETSET )
+   8:[\Musisslan101.GER.corp.intel.com\ITCB4\EndPointB] State:0x00 
+   9:[\Musisslan102.GER.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  10:[\FMSISSLAN01.AMR.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  11:[\FMSISSLAN03.AMR.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  12:[\SCSISSLAN03.AMR.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  13:[\FMSISSLAN08.AMR.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  14:[\FMSISSLAN06.AMR.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  15:[\FMSISSLAN05.AMR.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  16:[\SCSISSLAN06.AMR.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  17:[\FMSISSLAN07.AMR.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  18:[\AZSISSLAN05.AMR.corp.intel.com\ITCB4\EndPointB] State:0x100 ( TARGETSET )
+  19:[\WASISSLAN01.AMR.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  20:[\OCSISSLAN04.AMR.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  21:[\AZSISSLAN01.AMR.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  22:[\OCSISSLAN03.AMR.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  23:[\ORSISSLAN06.AMR.corp.intel.com\ITCB4\EndPointB] State:0x100 ( TARGETSET )
+  24:[\ORSISSLAN09.AMR.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  25:[\ORSISSLAN03.AMR.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  26:[\GKSISSLAN02.GER.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  27:[\HDSISSLAN05.AMR.corp.intel.com\ITCB4\EndPointB] State:0x00 
+  28:[\RRSISSLAN01.AMR.corp.intel.com\ITCB4\EndPointB] State:0x00 
+
+Entry: \amr.corp.intel.com\iss
+ShortEntry: \amr.corp.intel.com\iss
+Expires in 161 seconds
+UseCount: 1 Type:0x81 ( REFERRAL_SVC DFS )
+   0:[\FMSISSLAN05.AMR.CORP.INTEL.COM\ISS] State:0x110 ( ACTIVE TARGETSET )
+   1:[\FMSISSLAN03.AMR.CORP.INTEL.COM\ISS] State:0x00 
+   2:[\ORSISSLAN03.AMR.CORP.INTEL.COM\ISS] State:0x100 ( TARGETSET )
+   3:[\FMSISSCORP03\ISS] State:0x100 ( TARGETSET )
+
+
+DfsUtil command completed successfully.
